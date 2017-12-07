@@ -38,6 +38,7 @@ text-decoration: underline;
   opacity: 0.9;
   width: 1200px;
   margin: auto;
+text-align: center;
 }
 #missionimg {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
@@ -82,4 +83,16 @@ h2, h4 {
   display: block;
 padding: 10px;
   text-align: center;
+}
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+height: 500px;
+padding-top: 20px;
+margin-top: 65px;
+}
+
+.locations {
+background-color: black;
+margin-right: 40px;
+flex-basis: 250px;
 }
