@@ -26,6 +26,9 @@ body {
   flex-grow: 1;
   height: 50px;
 }
+a {
+  color: seashell;
+}
 nav span {
   color: white;
   display: inline-block;
@@ -64,7 +67,7 @@ h2, h4 {
   font-family: Helvetica;
   padding: 5px;
 }
-.tea {
+#tea {
   width: 1000px;
   margin: auto;
 }
@@ -95,4 +98,18 @@ margin-top: 65px;
 background-color: black;
 margin-right: 40px;
 flex-basis: 250px;
+}
+.contact {
+  height: 200px ;
+}
+.contact h2, h5 {
+  margin: 25px;
+}
+.contact h2 {
+  margin-top: 5px;
+}
+#copyright {
+  text-align: left;
+  position: relative;
+  right: 35px;
 }
